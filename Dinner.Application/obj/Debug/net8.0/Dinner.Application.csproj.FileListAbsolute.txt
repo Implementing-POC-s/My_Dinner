@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\bin\Debug\net8.0\Dinner.Application.deps.json
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\bin\Debug\net8.0\Dinner.Application.dll
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\bin\Debug\net8.0\Dinner.Application.pdb
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\bin\Debug\net8.0\Dinner.Domain.dll
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\bin\Debug\net8.0\Dinner.Domain.pdb
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\Dinner.Application.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\Dinner.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\Dinner.Application.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\Dinner.Application.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\Dinner.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\Dinner.A.1192B862.Up2Date
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\Dinner.Application.dll
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\refint\Dinner.Application.dll
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\Dinner.Application.pdb
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Application\obj\Debug\net8.0\ref\Dinner.Application.dll

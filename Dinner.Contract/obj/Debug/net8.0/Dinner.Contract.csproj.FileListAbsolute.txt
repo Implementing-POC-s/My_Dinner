@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\bin\Debug\net8.0\Dinner.Contract.deps.json
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\bin\Debug\net8.0\Dinner.Contract.dll
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\bin\Debug\net8.0\Dinner.Contract.pdb
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\obj\Debug\net8.0\Dinner.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\obj\Debug\net8.0\Dinner.Contract.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\obj\Debug\net8.0\Dinner.Contract.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\obj\Debug\net8.0\Dinner.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\obj\Debug\net8.0\Dinner.Contract.dll
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\obj\Debug\net8.0\refint\Dinner.Contract.dll
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\obj\Debug\net8.0\Dinner.Contract.pdb
+C:\Users\Lenovo\source\repos\Dinner.Api\Dinner.Contract\obj\Debug\net8.0\ref\Dinner.Contract.dll
