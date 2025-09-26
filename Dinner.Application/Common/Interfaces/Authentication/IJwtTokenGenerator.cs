@@ -1,9 +1,12 @@
 ﻿
 
+
+using Dinner.Domain.Entities;
+
 namespace Dinner.Application.Common.Interfaces.Authentication
 {
     public interface IJwtTokenGenerator
     {
-        string GenerateToken(string userId, string firstName, string lastName);
+        string GenerateToken(User user);
     }
 }

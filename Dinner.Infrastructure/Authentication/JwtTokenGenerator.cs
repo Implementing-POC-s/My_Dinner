@@ -3,8 +3,8 @@ using Dinner.Application.Common.Interfaces.Authentication;
 
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
-using System.Reflection.Metadata.Ecma335;
 using Dinner.Application.Common.Interfaces.Services;
+using Dinner.Domain.Entities;
 
 namespace Dinner.Infrastructure.Authentication
 {
@@ -15,18 +15,18 @@ namespace Dinner.Infrastructure.Authentication
         {
             _dateTimeProvider = dateTimeProvider;
         }
-        public string GenerateToken(string userId, string firstName, string lastName)
+        public string GenerateToken(User user)
         {
             var signingCredentials = new SigningCredentials(
-                new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("super-secret-key")),
+                new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("super-secret-key-my-key-is-16-byt")),//it should be of 16 bytes
                 SecurityAlgorithms.HmacSha256);
             var claims = new[]
 
 
       {
-        new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
-        new Claim(JwtRegisteredClaimNames.GivenName, firstName),
-        new Claim(JwtRegisteredClaimNames.FamilyName, lastName),
+        new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+        new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName),
+        new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName),
         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
       };
             var securityToken = new JwtSecurityToken(

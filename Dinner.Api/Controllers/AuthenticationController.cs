@@ -9,6 +9,7 @@ namespace Dinner.Api.Controllers;
 public class AuthenticationController : ControllerBase
 {
     private readonly IAuthenticationService _authenticationService;
+    
     public AuthenticationController(IAuthenticationService authenticationservice)
     {
                _authenticationService = authenticationservice;
@@ -21,11 +22,11 @@ public class AuthenticationController : ControllerBase
         var authResult = _authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
         //map the value to the api reponse that is authentication response
         var response = new AuthenticationResponse(
-            authResult.Id,
-            authResult.FirstName,
-            authResult.LastName,
-            authResult.Email,
-            authResult.Token);
+            authResult.User.Id,
+            authResult.User.FirstName,
+            authResult.User.LastName,
+            authResult.User.Email,
+            authResult.token);
 
         return Ok(response);
     }
@@ -35,11 +36,11 @@ public class AuthenticationController : ControllerBase
     {
         var authResult =_authenticationService.Login(request.Email, request.Password);
         var response = new AuthenticationResponse(
-            authResult.Id,
-            authResult.FirstName,
-            authResult.LastName,
-            authResult.Email,
-            authResult.Token);
+            authResult.User.Id,
+            authResult.User.FirstName,
+            authResult.User.LastName,
+            authResult.User.Email,
+            authResult.token);
         return Ok(response);
 
     }
